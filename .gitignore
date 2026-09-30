@@ -1,0 +1,11 @@
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+catboost_info/
+
+**/images/
+**/resnet18_features_*.csv
+**/engineered_image_features_*.csv
+**/*_predictions.csv
