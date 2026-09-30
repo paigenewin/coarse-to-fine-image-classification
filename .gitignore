@@ -1,11 +1,30 @@
-.DS_Store
-.vscode/
+# Local datasets
+data/task1_data/*
+data/task2_data/*
+
+# Keep empty data directories visible
+!data/task1_data/.gitkeep
+!data/task2_data/.gitkeep
+
+# Generated feature caches
+*resnet18_features*.csv
+*engineered_image_features*.csv
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Python
 __pycache__/
 *.pyc
+.venv/
+venv/
+
+# Model-generated folders
 catboost_info/
 
-**/images/
-**/resnet18_features_*.csv
-**/engineered_image_features_*.csv
-**/*_predictions.csv
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
