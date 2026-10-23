@@ -338,23 +338,6 @@ The selected models were additionally evaluated using:
 
 ## Requirements
 
-The main Python dependencies are:
-
-```text
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-Pillow
-torch
-torchvision
-xgboost
-lightgbm
-catboost
-jupyter
-```
-
 Install all dependencies with:
 
 ```bash
